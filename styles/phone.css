@@ -44,8 +44,8 @@
         left: 0;
     }
     /* Adding transform to the X */
-    .bar.close {
+    .hamburger.close {
         transform: rotate(180deg);
     }
- 
+    
 }
