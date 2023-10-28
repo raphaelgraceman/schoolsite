@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Tapestry&display=swap">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/phone.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/phone.css">
     <title>Portfolio Project</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
                         <source media="(max-width: 799px)" srcset="#">
                         <source media="(min-width: 800px)" srcset="#">
                         <a class="logo_link" href="index.html">
-                            <img class="logo" src="images/logo_75x75.png" alt="Chamber logo">
+                            <img class="logo" src="/images/logo_75x75.png" alt="Chamber logo">
                         </a>
                     </picture>
                     <h1>
@@ -29,8 +29,9 @@
                     </h1>
                     <nav class="navbar">
                         <ul class="nav-menu">
-                          <li class="nav-items"><a href="index.html" class="nav-link">Home</a></li>
-                            <li class="nav-items"><a href="/about/index.html" class="nav-link">About</a></li>
+                          <li class="nav-items"><a href="/index.html" class="nav-link">Home</a></li>
+                            <li class="nav-items"><a href="index.html" class="nav-link">About</a></li>
+                            <li class="nav-items"><a href="#" class="nav-link">Admission</a></li>
                             <li class="nav-items"><a href="#" class="nav-link">Contact</a></li>
                         </ul>
                         <div class="hamburger">
@@ -43,9 +44,9 @@
                      <!--Social Links-->
                 <div class="social_links">
                     <a href="#" target="_blank">
-                        <img src="images/whatsapp.jpg" alt="WhatsApp icon"></a>
+                        <img src="/images/whatsapp.jpg" alt="WhatsApp icon"></a>
                     <a href="#" target="_blank">
-                        <img src="images/facebook.png" alt="fb icon"></a>
+                        <img src="/images/facebook.png" alt="fb icon"></a>
                 </div> 
                 </div>
                
@@ -58,45 +59,30 @@
     <main>
         <!--hero image-->
         <div id="hero_image">
-            <div id="hero-banner"><h2 id="welcome_banner">Welcome To The Best Child Development Center <span id="call-us">
+            <div id="hero-banner"><h2>
+                <span id="call_us">
                 <a href="tel:+233546229003">Call (233) 546229003</a>
             </span></h2></div>
+            <div id="about">
+                <p><br><br><br><b>Graceman International School</b> is a pretertiary educational center aimed at providing best practices<br>
+                    for grooming children to fit both local and international needs; economically and spiritually.</p> 
+                    <br><p><b>Our aim</b> is to provide the requisit educational to enable children to discover and realize their full potential.</p>
+                    
+                    <h4 id="record">
+                       Records:
+                       <p>
+                           Graceman International School was awarded the best performing school over the past 7 years.
+                           <br>We also won the recent Trans-Atlantic Science Nerd Competion. We are proud to hold the first position.
+                           <br>Most inspiringly, we have about 30% of graduates working for the top international firms across the globe.
+                           <br> And the remaining 70% working in their own establishment.
+                       </p>
+                    </h4>
+            </div>
             <picture>
-                <img src="images/student.jpg" alt="Hero Image">
+                <img src="/images/admission_image.png" alt="Hero Image">
             </picture>
         </div>
 
-        <h4 id="vision-statement">Our vision:
-            <p>Our vision is to see every child groomed with our tutoring to become a creators, thinkers and problem solvers.<br>
-                 We foresee that every Graceman student is capable of becoming self-reliant prior to his graduation and completion.<br>
-                Not only do they become self-reliant in society but resourceful and developers of their immediate community and beyond.
-            </p>
-        </4>
-       
-         <!--Weather-->
-         <div id="weather">
-            <h5 href="/weather/index.html">Weather</h4>
-            <a href="/weather/index.html" target="_blank">
-                <img src="/weather/images/cloudy.png" alt="Weather icon" width="100" height="50px"></a>
-                <div>The Current temperature today <span id="currentdate">is: </span> <span class="temp"></span> &deg;F</p>
-                </div>
-                <div class="summary">Make sure to take good care of yourself today.</div>
-                <div class="location"></div>
-            </div>
-            
-        
-            
-        </div>
-
-        
-
-        <!--New release-->
-        <div id="news">
-            <h4>News Release</h4>
-            <p>About 90% of our 2023 graduate obtained first class grades in their final exams. <br>Student who scored grade A are 89, grade B+ were 18 and 3 had a C.
-                
-                <br><br><br> Students from our athletics team were awarded gold medals for their exclusive achievment in the tournament.</p>
-        </div>
 
     </main>
 
@@ -106,7 +92,7 @@
         <nav id="footing_nav">
             <div id="footer-nav">
                 <a class="logo_link" href="index.html">
-                    <img class="footer_logo" src="images/logo_75x75.png" alt="Chamber logo">
+                    <img class="footer_logo" src="/images/logo_75x75.png" alt="Chamber logo">
                 </a>
     
                 <div id="footer_head">
@@ -116,11 +102,10 @@
                 <div id="contact-info">
                     <span>raphaelgraceman@gmail.com</span> <br><span>+(233) 5462-29003</span><br>
                 </div>
+
                 <div>
-                    <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1985.4174563590184!2d-0.4504144129344094!3d5.591399247015865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1698494935759!5m2!1sen!2sgh" 
-                        width="150" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1985.4174563590184!2d-0.4504144129344094!3d5.591399247015865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1698494935759!5m2!1sen!2sgh" 
+                    width="150" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </nav>
@@ -133,7 +118,6 @@
        </footer>
    
 
-    <script src="scripts/index.js"></script>
-    <script src="/weather/index.js"></script>
+    <script src="/scripts/index.js"></script>
 </body>
 </html>
