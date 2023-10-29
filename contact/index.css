@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#call-us-now {
+    margin-left: 1092px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:#f76f08;
+   
+    
+}
+#call-us-now:hover {
+    transform: rotateX('angle');
+    color: rgb(17, 17, 16);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#contact-advert {
+    grid-column: 1;
+    text-align: center;
+    margin-top: 20px;
+    background-color:  #fffdc6;
+    border-radius: 15px;
+}
+#newss {
+    grid-column: 2;
+    border-radius: 15px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    margin-top: 20px;
+    background-color:  #fffdc6;;
+
+}
+ #newss h4{
+   background-color: #fffdc6;
+   text-align: center;
+   padding: 20px;
+   border-radius: 15px;
+}
+#forms {
+    grid-column: 1;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #f76f08;
+    background-color: #6f7364;
+    text-align: center;
+}
+form {
+    justify-content: center;
+}
+
+#kid-trumpet{
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 10px;
+    border: 2px solid #f76f08;
+}
+#kid-trumpet img{
+    border-radius: 10px;
+}
+
+#formfield {
+    width: 90%;
+    height: 300px;
+}
+fieldset{
+    border-radius: 10px;
+}
+.top{
+   line-height: 35px;
+}
+input {
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 200px;
+}
+.submit{
+    background-color: rgb(151, 151, 221);
+}
+
+#email_phone, #phone{
+    margin-left: 33px;
+}
+#email_phone{
+    border-radius: 0px;
+}
+#bus_descr{
+    margin-left: 33px;
+}
+textarea {
+    margin-left: 70px;
+    width: 300px;
+}

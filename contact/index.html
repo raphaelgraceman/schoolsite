@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Tapestry&display=swap">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/phone.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/phone.css">
+    <link rel="stylesheet" href="index.css">
     <title>Portfolio Project</title>
 </head>
 <body>
@@ -21,18 +22,17 @@
                         <source media="(max-width: 799px)" srcset="#">
                         <source media="(min-width: 800px)" srcset="#">
                         <a class="logo_link" href="index.html">
-                            <img class="logo" src="images/logo_75x75.png" alt="Chamber logo">
+                            <img class="logo" src="/images/logo_75x75.png" alt="Chamber logo">
                         </a>
                     </picture>
                     <h1>
-                        <a href="#" class="nav-branding"><span id="title_tag">Graceman</span><br><span id="title_desc">International School</span></a>
+                        <a href="index.html" class="nav-branding"><span id="title_tag">Graceman</span><br><span id="title_desc">International School</span></a>
                     </h1>
                     <nav class="navbar">
                         <ul class="nav-menu">
                           <li class="nav-items"><a href="index.html" class="nav-link">Home</a></li>
                             <li class="nav-items"><a href="/about/index.html" class="nav-link">About</a></li>
-                            <li class="nav-items"><a href="#" class="nav-link">Contact</a></li>
-                            <li class="nav-items"><a href="#" class="nav-link">Showroom</a></li>
+                            <li class="nav-items"><a href="/contact/index.html" class="nav-link">Contact</a></li>
                         </ul>
                         <div class="hamburger">
                             <span class="bar"></span>
@@ -44,9 +44,9 @@
                      <!--Social Links-->
                 <div class="social_links">
                     <a href="#" target="_blank">
-                        <img src="images/whatsapp.jpg" alt="WhatsApp icon"></a>
+                        <img src="/images/whatsapp.jpg" alt="WhatsApp icon"></a>
                     <a href="#" target="_blank">
-                        <img src="images/facebook.png" alt="fb icon"></a>
+                        <img src="/images/facebook.png" alt="fb icon"></a>
                 </div> 
                 </div>
                
@@ -59,45 +59,45 @@
     <main>
         <!--hero image-->
         <div id="hero_image">
-            <div id="hero-banner"><h2 id="welcome_banner">Welcome To The Best Child Development Center <span id="call-us">
+            <div id="hero-banner"><h2 id="welcome_banner"> <span id="call-us-now">
                 <a href="tel:+233546229003">Call (233) 546229003</a>
             </span></h2></div>
-            <picture>
-                <img src="images/student.jpg" alt="Hero Image">
-            </picture>
         </div>
-
-        <h4 id="vision-statement">Our vision:
-            <p>Our vision is to see every child groomed with our tutoring to become a creators, thinkers and problem solvers.<br>
-                 We foresee that every Graceman student is capable of becoming self-reliant prior to his graduation and completion.<br>
-                Not only do they become self-reliant in society but resourceful and developers of their immediate community and beyond.
-            </p>
-        </4>
-       
-         <!--Weather-->
-         <div id="weather">
-            <h5 href="/weather/index.html">Weather</h4>
-            <a href="/weather/index.html" target="_blank">
-                <img src="./weather/images/cloudy.png" alt="Weather icon" width="100" height="50px"></a>
-                <div>The Current temperature today <span id="currentdate">is: </span> <span class="temp"></span> &deg;F</p>
-                </div>
-                <div class="summary">Make sure to take good care of yourself today.</div>
-                <div class="location"></div>
-            </div>
-            
-        
-            
-        </div>
-
-        
+       <section class="grid">
+        <p id="contact-advert"><br><br><i>Do you want the best of Education for your ward? <br>You are at the right place now.</i><br><br><br><br><br><br><b>Contact our team of expects to know more.<br><br></b> </p>
 
         <!--New release-->
-        <div id="news">
+        <div id="newss">
             <h4>News Release</h4>
             <p>About 90% of our 2023 graduate obtained first class grades in their final exams. <br>Student who scored grade A are 89, grade B+ were 18 and 3 had a C.
                 
                 <br><br><br> Students from our athletics team were awarded gold medals for their exclusive achievment in the tournament.</p>
         </div>
+       </section>
+
+       <br><br><br><div class="grid">
+          <!--Forms-->
+            <div id="forms">
+                <form method="get" action="thankyou.html">
+                    <fieldset id="personal_details">
+                        <legend class="radius">Contact Info</legend><br>
+                       <div id="formfield">
+                        <label class="top">First Name : <input type="text" name="fname" required></label><br><br>
+                        <label class="top">Last Name : <input type="text" name="lname" required></label><br><br>
+                        <label class="top" id="email_phone">Email : <input type="email" name="email" placeholder="raphael48@gmail.com" required></label><br><br>
+                        <label class="top" id="phone">Phone : <input type="tel" name="phone" required></label><br>
+                        <label class="top" id="bus_descr">Message : <br><textarea rows="2"  name="business_desc" required></textarea></label><br>
+                       </div>
+                    </fieldset>
+                    <label><input type="hidden" id="submitdate" name="submitdate" value=""> </label>
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="kid-trumpet">
+                <img src="/images/kid_trumpet.jpg" alt="Children play Trumpet">
+            </div>
+       </div>
 
     </main>
 
@@ -107,7 +107,7 @@
         <nav id="footing_nav">
             <div id="footer-nav">
                 <a class="logo_link" href="index.html">
-                    <img class="footer_logo" src="images/logo_75x75.png" alt="Chamber logo">
+                    <img class="footer_logo" src="/images/logo_75x75.png" alt="Chamber logo">
                 </a>
     
                 <div id="footer_head">
@@ -134,7 +134,8 @@
        </footer>
    
 
-    <script src="scripts/index.js"></script>
-    <script src="./weather/index.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script src="/weather/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
