@@ -1,11 +1,11 @@
+
+
 //Accessing the welcome_banner DOM 
 document.getElementById("welcome_banner").style.background = "red";
-//Change back to normal after 1 second
+//Change back to normal after 3 second
 setTimeout(() => document.getElementById("welcome_banner").style.background = "", 3000);
-
-
-
-
+//change the color to blue
+setTimeout(() => document.getElementById("welcome_banner").style.background = "Blue", 3000);
 
 //Access the hamburger and the navimenu
 const hamburger = document.querySelector(".hamburger");

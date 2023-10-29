@@ -285,3 +285,22 @@ footer {
     box-shadow: 5px 5px 10px #6f7364;
     cursor: pointer;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid #8b8080;
+    margin: -23px;
+    background-color: white;
+}
+
+#kid-trumpet {
+    grid-column: 1;
+    border-radius: 15px;
+   
+}
+
+#student-book{
+    grid-column: 2;
+    border-radius: 15px;
+}
