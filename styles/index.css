@@ -304,3 +304,8 @@ footer {
     grid-column: 2;
     border-radius: 15px;
 }
+
+#heroImage {
+    width: 100%;
+    height: 100%;
+}

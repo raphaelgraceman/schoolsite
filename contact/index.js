@@ -5,7 +5,7 @@ function myfunction() {
     var contact = document.getElementById("contact").value;
     if (validation()) // Calling validation function
     {
-    document.getElementById("form_id").action = "employeeDetails.php"; // Setting form action to "success.php" page
+    document.getElementById("form_id").action = "index.php"; // Setting form action to "success.php" page
     document.getElementById("form_id").submit(); // Submitting form
     }
     }
