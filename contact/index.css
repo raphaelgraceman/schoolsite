@@ -9,8 +9,6 @@
     padding: 20px;
     border-radius: 15px;
     background-color:#f76f08;
-   
-    
 }
 #call-us-now:hover {
     transform: rotateX('angle');
@@ -100,4 +98,11 @@ input {
 textarea {
     margin-left: 70px;
     width: 300px;
+}
+
+#thank {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 50%;
+    margin-top: 10%;
 }
