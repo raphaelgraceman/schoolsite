@@ -47,7 +47,49 @@
     .hamburger.close {
         transform: rotate(180deg);
     }
+    .logo {
+        margin-left: -10px;
+    }
+    #title_desc{
+        font-size: 13px;
+    }
+    .social_links {
+        display: none;
+    }
+    #currentdate{
+        font-size: 12px;
+    }
+    header #call-us {
+        margin-left: 330px;
+        padding: 7px;
+    }
+    #welcome_banner{
+        font-size: 13px;
+        text-align: justify;
+    }
 
-    
-    
+    p{
+        font-size: 12px;
+    }
+    #footing_nav {
+        width: 100%;
+    }
+    #footer-nav{
+        margin: 0;
+    }
+    #footer_row2 {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    #grid {
+        display: none;
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides-hidden {
+        display: none;
+    }
+   
 }

@@ -1,4 +1,15 @@
+addEventListener("load", () => {
+    var index = 0;
+    const slides = document.querySelectorAll(".slides");
+    const hideslides = "slides-hidden", count = slides.length;
 
+    nextSlide();
+    function nextSlide(){
+        slides[(index ++) % count].classList.add(hideslides);
+        slides[index % count].classList.remove(hideslides);
+        setTimeout(nextSlide, 3000);
+    }
+})
 
 //Accessing the welcome_banner DOM 
 document.getElementById("welcome_banner").style.background = "red";
