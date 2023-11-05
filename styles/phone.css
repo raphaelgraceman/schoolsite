@@ -1,4 +1,18 @@
 @media(max-width:1024px){
+    header, footer {
+        background-color: #f76f08;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: .75rem;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+
+    header, main, footer {
+        max-width: 767px;
+        margin: auto;
+    }
     .bar {
         display: block;
         width: 25px;
@@ -24,6 +38,7 @@
         transform: translateY(8px) rotate(-45deg);
     }
 
+    
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -42,7 +57,11 @@
 
     .nav-menu.active {
         left: 0;
+        text-align: center;
+        max-width: 518px;
+        color: #f76f08;
     }
+   
     /* Adding transform to the X */
     .hamburger.close {
         transform: rotate(180deg);
@@ -76,6 +95,7 @@
     }
     #footer-nav{
         margin: 0;
+        max-width: 518px;
     }
     #footer_row2 {
         margin: 0;
