@@ -30,6 +30,12 @@ hamburger.addEventListener("click", ()=> {
 
 //Also, add a click event to each of the page links.
 //Now when the user  clicks on a link, the menu goes into hiding.
+document.querySelectorAll(".nav-items").forEach(n => n.addEventListener("click", () => {
+    document.querySelector(".nav-link").style.color = "Red";
+
+}))
+
+//Now when the user  clicks on a link, the link color changes.
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active")

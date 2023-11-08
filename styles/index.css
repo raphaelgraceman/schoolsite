@@ -154,6 +154,13 @@ header #call-us {
     transition: 0.3s ease-out;
     color: #8b8080;
 }
+#call-now {
+    display: none;
+}
+#banner {
+    background-color: black;
+    color:#f7f7f7;
+}
 #news, #weather{
     margin-top: 80px;
 }
@@ -245,7 +252,6 @@ footer {
     padding-bottom: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
-    
 }
 
 .copyright {
@@ -286,26 +292,28 @@ footer {
     cursor: pointer;
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px solid #8b8080;
-    margin: -23px;
-    background-color: white;
-}
+
 
 #kid-trumpet {
-    grid-column: 1;
     border-radius: 15px;
    
 }
 
 #student-book{
-    grid-column: 2;
+    display: none;
     border-radius: 15px;
 }
 
 #heroImage {
     width: 100%;
     height: 100%;
+}
+.slides {
+    width: 99%;
+}
+.slides-hidden {
+    display: none;
+}
+.elkana {
+    display: none;
 }
